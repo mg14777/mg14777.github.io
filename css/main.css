@@ -1,8 +1,11 @@
-
+html, body {
+    height: 100%;
+    width: 100%;
+}
 .intro {
     color: white;
-    background-color: #f05f40;
-    font-family: 'Luckiest Guy',sans-serif;
+    background-color: black;
+    font-family: 'Montserrat',sans-serif;
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -23,13 +26,43 @@ img {
 .logo {
     padding: 0px;
 }
-.navbar-default .navbar-collapse .navbar-nav > li > a {
+.navbar-fixed-top .navbar-collapse .navbar-nav > li > a {
     color: black;
 }
-.navbar-default {
+.navbar-right {
+    font-size: 17pt;
+    padding-top: 15px;
+}
+.navbar-fixed-top {
     background-color: white;
     font-size: 15pt;
     font-family: 'Open Sans',sans-serif;
-    padding: 10px 10px;
+    padding: 0px 20px;
     margin-bottom: 0px;
+}
+.about-me {
+    height: 40%;
+}
+.about-me-title {
+    height: 25%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+.about-me-description {
+    height: 75%;
+    font-family: 'Open Sans';
+    font-size: 20pt;
+    text-align: center;
+}
+.skills {
+    height: 80%;
+    background-color: black;
+    color: white;
+}
+.skills-title {
+    height: 25%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30pt;
+    text-align: center;
 }

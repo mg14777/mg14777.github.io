@@ -8,10 +8,9 @@
     <title>Bootstrap 101 Template</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet">
-    <script src="js/scroll-lock.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,7 +19,7 @@
     <![endif]-->
   </head>
   <body>
-      <nav class="navbar-default">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
           
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -29,9 +28,9 @@
         </div>-->
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
-          <img class="logo" src="resources/my-brand.png" width="80" height="">
+          <img class="logo" src="resources/my-brand.png" width="70" height="">
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About Me</a></li>
+              <li><a href="#about">About Me</a></li>
               <li><a href="#">Skills</a></li>
               <li><a href="#">Resume</a></li>
               <li><a href="#">Contact</a></li>            
@@ -46,10 +45,17 @@
             HEY THERE !<br>I AM MUDIT GUPTA<br><font size="6">WELCOME TO MY PERSONAL WEBSITE</font>
         </div>
     </div>
-    <div class="about-me">About Me</div>
+    <div class="about-me" id="about">
+        <div class="about-me-title">ABOUT ME</div>
+        <div class="about-me-description"><p>I am currently a Computer Science undergraduate at University of Bristol. I am passionate about programming and enjoy working on challenging and innovative projects. I have particular interests in Object Oriented Programming, Image Processing and Artificial Intelligence. I always look forward to new positions of responsibility that offer a challenging and fast-paced work environment.</p></div>
+    </div>
+    <div class="skills">
+         <div class="skills-title">SKILLS</div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll-lock.js"></script>
   </body>
 </html>
