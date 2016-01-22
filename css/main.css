@@ -1,0 +1,35 @@
+
+.intro {
+    color: white;
+    background-color: #f05f40;
+    font-family: 'Luckiest Guy',sans-serif;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#wrap {
+    width: 100%;
+}
+.salutation {
+    height: 100%;
+    font-size: 40pt;
+}
+img {
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    float: left;
+}
+.logo {
+    padding: 0px;
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default {
+    background-color: white;
+    font-size: 15pt;
+    font-family: 'Open Sans',sans-serif;
+    padding: 10px 10px;
+    margin-bottom: 0px;
+}
