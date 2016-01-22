@@ -5,6 +5,7 @@ html, body {
 .intro {
     color: white;
     background-color: black;
+    background-image: url(../resources/matrix.jpg);
     font-family: 'Montserrat',sans-serif;
     padding-top: 70px;
     height: 90%;
@@ -56,10 +57,6 @@ img {
     height: 120%;
     padding-top: 125px;
     margin-top: -95px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.6s;
 }
 .about-me-title {
     height: 25%;
@@ -81,16 +78,29 @@ img {
     color: black;
     margin-top: -95px;
     padding-top: 125px;
-    
 }
 .skills-title {
-    height: 25%;
+    height: 15%;
     font-family: 'Montserrat',sans-serif;
     font-size: 30pt;
     text-align: center;
 }
+.lower-skills {
+    height: 30%;
+    padding-left: 70px;
+    padding-right: 0px;
+}
+.skills-body {
+    height: 105%;
+}
+.upper-skills {
+    height: 30%;
+    padding-left: 90px;
+    padding-right: 0px;
+}
+
 .portfolio {
-    height: 100%;
+    height: 120%;
     background-color: firebrick;
     color: white;
     margin-top: -95px;
@@ -101,4 +111,66 @@ img {
     font-family: 'Montserrat',sans-serif;
     font-size: 30pt;
     text-align: center;
+}
+.contact {
+    height: 100%;
+    background-color: black;
+    color: white;
+    margin-top: -95px;
+    
+}
+.get-in-touch {
+    height: 93%;
+    width: 50%;
+    padding-top: 125px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    float: left;
+    background-color: deepskyblue;
+}
+.email {
+    height: 43%;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 19pt;
+}
+#email img {
+    margin-left: 200px;
+}
+.phone {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    
+    font-size: 19pt;
+}
+#phone img {
+    margin-left: 200px;
+}
+.social-media {
+    height: 93%;
+    width: 50%;
+    float: right;
+    padding-top: 125px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    background-color: purple;
+}
+#social-media img {
+    
+}
+.social-media-buttons {
+    padding-top: 40px;
+    padding-left: 50px;
+    height: 73%;
+}
+.copyright {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    color: lightgray;
+    line-height: 2.3;
 }
