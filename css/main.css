@@ -4,10 +4,13 @@ html, body {
 }
 .intro {
     color: white;
-    background-image: url(../resources/matrix.jpg);
+    background: linear-gradient(
+      rgba(255, 130, 67, 0.8), 
+      rgba(255, 130, 67, 0.6)
+    ), url(../resources/city.jpg);
     font-family: 'Montserrat',sans-serif;
     padding-top: 160px;
-    height: 120%;
+    height: 125%;
     padding-bottom: 0px;
     margin-top: px;
 }
@@ -33,7 +36,7 @@ img {
     float: left;
 }
 .logo {
-    margin-top: 12px;
+    margin-top: 6px;
     margin-left: 22px;
     padding: 0px;
 }
@@ -50,8 +53,8 @@ img {
 }
 .navbar-right {
     font-size: 15pt;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 6px;
+    padding-bottom: 0px;
     font-weight: bold;
     
 }
@@ -66,7 +69,10 @@ img {
     height: 120%;
     padding-top: 125px;
     margin-top: -95px;
-    background-image: url(../resources/bristol-night-blur.jpg);
+    background-image: linear-gradient(
+      rgba(73, 151, 208, 0.5), 
+      rgba(73, 151, 208, 0.5)
+    ), url(../resources/bristol-night.jpg);
     background-color: #00CD00;
     color: white;
     font-weight: bold;
@@ -124,6 +130,30 @@ img {
     font-family: 'Montserrat',sans-serif;
     font-size: 30pt;
     text-align: center;
+}
+.resume {
+    height: 100%;
+    color: white;
+    margin-top: -95px;
+    padding-top: 125px;
+    background-color: forestgreen;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+.resume-title {
+    height: 25%;
+}
+.view-resume {
+    margin-top: 50px;
+    background-color: black;
+    padding: 10px;
+    border-color: forestgreen;
+}
+.view-resume:hover {
+    color: forestgreen;
+    background-color: white;
+    border-color: white;
 }
 .contact {
     height: 100%;
