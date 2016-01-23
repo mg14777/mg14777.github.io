@@ -4,13 +4,12 @@ html, body {
 }
 .intro {
     color: white;
-    background-color: black;
     background-image: url(../resources/matrix.jpg);
     font-family: 'Montserrat',sans-serif;
-    padding-top: 70px;
-    height: 90%;
+    padding-top: 160px;
+    height: 120%;
     padding-bottom: 0px;
-    margin-top: 68px;
+    margin-top: px;
 }
 #wrap {
     width: 100%;
@@ -34,10 +33,20 @@ img {
     float: left;
 }
 .logo {
+    margin-top: 12px;
+    margin-left: 22px;
     padding: 0px;
 }
 .navbar-fixed-top .navbar-collapse .navbar-nav > li > a {
     color: black;
+}
+.navbar-fixed-top .navbar-collapse .navbar-nav > li > a:hover {
+    color: white;
+    background-color:deepskyblue;
+}
+.navbar-fixed-top .navbar-collapse .navbar-nav > li > a:focus {
+    color: white;
+    background-color:deepskyblue;
 }
 .navbar-right {
     font-size: 15pt;
@@ -57,6 +66,10 @@ img {
     height: 120%;
     padding-top: 125px;
     margin-top: -95px;
+    background-image: url(../resources/bristol-night-blur.jpg);
+    background-color: #00CD00;
+    color: white;
+    font-weight: bold;
 }
 .about-me-title {
     height: 25%;
