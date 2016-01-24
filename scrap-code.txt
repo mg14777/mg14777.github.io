@@ -1,0 +1,11 @@
+                 <!--
+                <img src="resources/Java_logo.png" width="260" height="140">
+                <img src="resources/c++.png" width="300">
+                <img src="resources/HTML5_logo.png" width="300" height="140">
+                <img src="resources/css.png" width="260" height="140">
+            </div>
+            <div class="lower-skills">
+                <img src="resources/haskell_logo.png" width="300" height="140">
+                <img src="resources/javascript.png" width="290" height="140">
+                <img src="resources/Matlablogo.png" width="360" height="100">
+                -->
