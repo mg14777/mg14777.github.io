@@ -4,13 +4,17 @@ html, body {
 }
 .intro {
     color: white;
-    background: linear-gradient(
+    //background: linear-gradient(
       rgba(255, 130, 67, 0.8), 
       rgba(255, 130, 67, 0.6)
-    ), url(../resources/bristol.jpg);
+    ), url(../resources/atlantis.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0,0,0, 0)
+    ), url(../resources/space_27.jpg);
     font-family: 'Montserrat',sans-serif;
     padding-top: 160px;
-    height: 125%;
+    height: 100%;
     padding-bottom: 0px;
     margin-top: px;
 }
@@ -23,8 +27,8 @@ html, body {
     font-size: 15pt;
     -moz-border-radius: 15px;
   -webkit-border-radius: 95px;
-    color: gray;
-    background: rgba(255,255,255,0.5);
+    color: black;
+    background: rgba(255,255,255,1);
     border-style: none;
 }
 .learn-more:hover {
@@ -34,6 +38,7 @@ html, body {
 	-webkit-transition: background .3s linear;
 	-o-transition: background .3s linear;
 	transition: background .3s linear;
+    transition: color .3s linear;
 }
 #wrap {
     width: 100%;
@@ -57,13 +62,14 @@ img {
     float: left;
 }
 .logo {
-    margin-top: 0px;
-    margin-left: 22px;
+    margin: 1%;
     padding: 0px;
+    transition: width 0.5s;
 }
+
 .navbar-fixed-top .navbar-collapse .navbar-nav > li > a {
-    color: black;
-    padding-top: 22px;
+    //color: white;
+    padding-top: 10px;
 }
 .navbar-fixed-top .navbar-collapse .navbar-nav > li > a:hover {
     color: white;
@@ -73,42 +79,47 @@ img {
     color: white;
     background-color:black;
 }
+
 .navbar-right {
-    font-size: 15pt;
+    font-size: 12pt;
     padding-top: 0px;
     padding-bottom: 0px;
     font-weight: bold;
-    
 }
 .navbar-fixed-top {
-    background: rgba(255, 255, 255, 0.86);
+    background: rgba(255, 255,255,0);
     font-size: 15pt;
+    height: 0%;
     font-family: 'Open Sans',sans-serif;
     padding: 0px 20px;
     margin-bottom: 0px;
+    border-bottom: 0px;
+    transition: background 0.5s;
 }
 .about-me {
-    height: 105%;
-    padding-top: 119px;
-    margin-top: -95px;
-    background-image: linear-gradient(
+    height: 65%;
+    //padding-top: 119px;
+    padding-top: 4%;
+    margin-top: 0px;
+    /*background-image: linear-gradient(
       rgba(73, 151, 208, 0.5), 
       rgba(73, 151, 208, 0.5)
     ), url(../resources/bristol-night.jpg);
-    background-color: #00CD00;
-    color: white;
-    font-weight: bold;
+    */
+    //background-color: #00CD00;
+    color: orangered;
+    //font-weight: bold;
 }
 .about-me-title {
     height: 25%;
     font-family: 'Montserrat',sans-serif;
-    font-size: 30pt;
+    font-size: 20pt;
     text-align: center;
 }
 .about-me-description {
     height: 75%;
     font-family: 'Open Sans';
-    font-size: 20pt;
+    font-size: 15pt;
     text-align: justify;
     padding-left: 80px;
     padding-right: 80px;
@@ -117,11 +128,11 @@ img {
     height: 120%;
     color: white;
     margin-top: 0px;
-    padding-top: 119px;
+    padding-top: 4%;
     background: black;//rgb(255,222,47);
 }
 .skills-title {
-    height: 15%;
+    height: 10%;
     font-family: 'Montserrat',sans-serif;
     
     font-size: 30pt;
@@ -138,7 +149,7 @@ img {
     height: 105%;
 }
 .upper-skills {
-    width: 50%;
+    width: 100%;
     height: 68%;
     font-family: 'Montserrat',sans-serif;
     font-size: 30pt;
@@ -146,12 +157,20 @@ img {
     color: black;
     float: left;
 }
+.skill-values {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25pt;
+    margin-top: 2%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
 .technologies-div {
     width: 100%;
-    height: 15%;
+    height: 35%;
+    vertical-align: middle;
 }
 .technologies {
-    width: 97%;
+    width: 100%;
     height: 100%;
     float: left;
     /*
@@ -172,16 +191,20 @@ img {
     border-left-color: gold;
     transition-duration: .3s;
 }
-.technologies:hover ~ #lowerSkills {
-    visibility: visible;
+/*.technologies:hover ~ #lowerSkills {
+   display: none;
+}
+*/
+.lower-skills {
+    display: none;
 }
 .specialisations-div {
     width: 100%;
-    height: 15%;
+    height: 39%;
     color: black;
 }
 .specialisations {
-    width: 97%;
+    width: 100%;
     height: 100%;
     float: left;
     background-color: lightgray;
@@ -200,11 +223,11 @@ img {
 }
 .web-dev-div {
     width: 100%;
-    height: 15%;
+    height: 35%;
     color: black;
 }
 .web-dev {
-     width: 97%;
+     width: 100%;
     height: 100%;
     float: left;
     background-color: lightgray;
@@ -244,7 +267,7 @@ img {
     background-color: firebrick;
     color: white;
     margin-top: -95px;
-    padding-top: 119px;
+    padding-top: 4%;
 }
 .portfolio-title {
     height: 25%;
@@ -314,7 +337,6 @@ img {
     height: 30%;
     width: 100%;
     text-align: center;
-    
     font-size: 19pt;
 }
 #phone img {

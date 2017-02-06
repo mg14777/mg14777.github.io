@@ -17,10 +17,12 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/skills.js"></script>
   </head>
   <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navbar">
+      <div class="container-fluid" id="sections">
           
         <!-- Brand and toggle get grouped for better mobile display -->
         <!--<div class="navbar-header">
@@ -28,7 +30,7 @@
         </div>-->
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
-            <a href="#wrap"><img class="logo" src="resources/my-brand.png" width="70" height=""></a>
+            <a href="#wrap"><img class="logo" src="resources/my-brand2.png" width="90" height="" id="logo-id"></a>
           <ul class="nav navbar-nav navbar-right">
               <li><a href="#about">About Me</a></li>
               <li><a href="#Skills">Skills</a></li>
@@ -39,46 +41,58 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+      
     <div class="intro" id="wrap">
         <div class="my-image">
             <img src="resources/my-pic.png" class="my-pic" >
         </div>
         <div class="salutation" align="center">
-            MUDIT GUPTA<br><font size="6">WELCOME TO MY PERSONAL WEBSITE</font>
+            Hi, I'm Mudit<br><font size="6">Welcome to my little space in this vast universe ...</font>
             <br>
             <input type="button" class="learn-more" value="Learn More" onclick="window.location.href='#about'"/>
         </div>
     </div>
     <div class="about-me" id="about">
         <div class="about-me-title">ABOUT ME</div>
-        <div class="about-me-description"><p>I am currently a second year Computer Science undergraduate at University of Bristol. I hail from Kanpur, a city in north India. I am passionate about programming and enjoy working on challenging and innovative projects. I have particular interests in Object Oriented Programming, Image Processing and Artificial Intelligence. I always look forward to new positions of responsibility that offer a challenging and fast-paced work environment. In my free time, I love listening to music and playing Badminton.</p></div>
+        <div class="about-me-description"><p>I am a Computer Science undergraduate at University of Bristol. I am spending my third year on exchange at National University of Singapore. I hail from Kanpur, a city in north India. I am a passionate programmer and enjoy working on challenging and innovative projects. I have particular interests in Software Development, Machine Learning, Image Processing and Artificial Intelligence. I always look forward to new positions of responsibility that offer a challenging and fast-paced work environment. In my free time, I love listening to music and playing Badminton.</p></div>
     </div>
     <div class="skills" id="Skills">
         <div class="skills-title">SKILLS</div>
         <div class="skills-body">
             <div class="upper-skills">
                 <div class="technologies-div">
-                    <div class="technologies" id="tech">
-                        PROGRAMMING
+                    <div class="technologies" id="tech" onmouseover="displayContent(1)" onmouseout="displayContent(0)">
+                        PROGRAMMING<br>
+                        <div class="skill-values" id="tech-skills">
+                            Java &nbsp; C++ &nbsp; C &nbsp; Python &nbsp; Haskell
+                        </div>
                     </div>
-                    <div class="arrow-up" id="arrow-right-tech"></div>
+                    <!--<div class="arrow-up" id="arrow-right-tech"></div>-->
                 </div>
                 <div class="web-dev-div">
-                    <div class="web-dev" id="web">
-                        WEB DEVELOPMENT
+                    <div class="web-dev" id="web" onmouseover="displayContent(2)" onmouseout="displayContent(0)">
+                        WEB DEVELOPMENT<br>
+                        <div class="skill-values" id="web-skills">
+                            HTML &nbsp; CSS &nbsp; Javascript &nbsp; PHP &nbsp; jQuery
+                        </div>
                     </div>
-                    <div class="arrow-up" id="arrow-right-web"></div>
+                    <!--<div class="arrow-up" id="arrow-right-web"></div>-->
                 </div>
                 <div class="specialisations-div">
-                    <div class="specialisations">
-                        SPECIALISATIONS
+                    <div class="specialisations" onmouseover="displayContent(3)" onmouseout="displayContent(0)">
+                        SPECIALISATIONS<br>
+                        <div class="skill-values" id="special-skills">
+                            Machine Learning &nbsp; Artificial Intelligence &nbsp; Graphics &nbsp; Image Processing &nbsp;
+                        </div>
                     </div>
-                    <div class="arrow-up" id="arrow-right-special"></div>
+                    <!--<div class="arrow-up" id="arrow-right-special"></div>-->
                 </div>  
             </div>
+            <!--
             <div class="lower-skills" id="lowerSkills">
-                dfsf
+                dfdfd
             </div>
+            -->
         </div>
     </div>
     <div class="portfolio" id="Portfolio">
