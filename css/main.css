@@ -20,6 +20,10 @@ h2 {
 h3 {
     font-size: 30px;
 }
+.landing-page {
+    background-repeat: no-repeat;
+    padding-top: 22%;
+}
 /*
 Media queries for responsive text
 */
@@ -35,6 +39,9 @@ Media queries for responsive text
     }
     h3 {
         font-size: 30px;
+    }
+    .landing-page {
+        padding-top: 12%;
     }
 
 }
@@ -70,9 +77,6 @@ Common properties
     text-align: left;
     margin-bottom: 4%;
 }
-.landing-page {
-    background-repeat: no-repeat;
-}
 .about-me, .projects, .experience, .contact, .resume{
     padding-top: 5%;
     padding-bottom: 4%;
@@ -86,19 +90,16 @@ Common properties
 /*
 Section specific properties
 */
+.my-image {
+    width: 200px;
+}
 .landing-page {
     color: white;
-    //background: linear-gradient(
-      rgba(255, 130, 67, 0.8), 
-      rgba(255, 130, 67, 0.6)
-    ), url(../resources/atlantis.jpg);
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2), 
         rgba(0,0,0, 0.2)
     ), url(../resources/aurora.jpg);
     font-family: 'Montserrat',sans-serif;
-    /*height: 100%;*/
-    padding-top: 13%;
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
