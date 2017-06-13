@@ -1,157 +1,321 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Mudit Gupta</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Materialize framework CDN-->
+  
+    <!-- Custom Stylesheet -->
     <link href="css/main.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="js/skills.js"></script>
   </head>
   <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navbar">
-      <div class="container-fluid" id="sections">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top main-navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img class="img-resoponsive logo" src="resources/my-brand2.png" id="logo-id"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class = "container-fluid landing-page">
+   <div class="row">
+      <div class="col-md-12">
+            <img src="resources/my-pic3.png" class="img-circle img-responsive center-block" >
+            <h1>Hi, I'm Mudit</h1><br>
+            <h3>Welcome to my little space in this vast universe ...
+            </h3><br>
+            <button type="button" class="btn btn-default learn-more" onclick="window.location.href='#aboutMe'">Learn More</button>
+      </div>
+    </div>
+</div>
+<!-- About Me begin -->
+<div class="container-fluid about-me" id="aboutMe">
+
+    <div class="col-md-12">
+        <h2 class="section-title">ABOUT ME</h2><br>
+          <p>I am a Computer Science undergraduate at University of Bristol. I am spending my third year on exchange at National University of Singapore. I hail from Kanpur, a city in north India. I am a passionate programmer and enjoy working on challenging and innovative projects. I have particular interests in Software Development, Computer Vision, Artificial Intelligence and Internet Technologies. I always look forward to new positions of responsibility that offer a challenging and fast-paced work environment. In my free time, I love learning about new technologies, hacking on side projects and listening to music.</p>
+          <h3 class="about-tagline">
           
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <!--<div class="navbar-header">
-          <a class="navbar-brand" href="#"></a>
-        </div>-->
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
-            <a href="#wrap"><img class="logo" src="resources/my-brand2.png" width="90" height="" id="logo-id"></a>
-          <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#Skills">Skills</a></li>
-              <li><a href="#Portfolio">Portfolio</a></li>
-              <li><a href="#Resume">Resume</a></li>
-              <li><a href="#Contact">Contact</a></li>            
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-      
-    <div class="intro" id="wrap">
-        <div class="my-image">
-            <img src="resources/my-pic.png" class="my-pic" >
-        </div>
-        <div class="salutation" align="center">
-            Hi, I'm Mudit<br><font size="6">Welcome to my little space in this vast universe ...</font>
-            <br>
-            <input type="button" class="learn-more" value="Learn More" onclick="window.location.href='#about'"/>
-        </div>
+          </h3>
     </div>
-    <div class="about-me" id="about">
-        <div class="about-me-title">ABOUT ME</div>
-        <div class="about-me-description"><p>I am a Computer Science undergraduate at University of Bristol. I am spending my third year on exchange at National University of Singapore. I hail from Kanpur, a city in north India. I am a passionate programmer and enjoy working on challenging and innovative projects. I have particular interests in Software Development, Machine Learning, Image Processing and Artificial Intelligence. I always look forward to new positions of responsibility that offer a challenging and fast-paced work environment. In my free time, I love listening to music and playing Badminton.</p></div>
+</div>
+<!-- about me end -->
+
+
+<!-- Experience Begin-->
+<div class="container-fluid experience" id="experience">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="section-title">EXPERIENCE</h2>
     </div>
-    <div class="skills" id="Skills">
-        <div class="skills-title">SKILLS</div>
-        <div class="skills-body">
-            <div class="upper-skills">
-                <div class="technologies-div">
-                    <div class="technologies" id="tech" onmouseover="displayContent(1)" onmouseout="displayContent(0)">
-                        PROGRAMMING<br>
-                        <div class="skill-values" id="tech-skills">
-                            Java &nbsp; C++ &nbsp; C &nbsp; Python &nbsp; Haskell
-                        </div>
-                    </div>
-                    <!--<div class="arrow-up" id="arrow-right-tech"></div>-->
+  </div>
+  <div class="row experience-section">
+      <div class="col-md-8 col-md-offset-3">
+        <div class="col-md-2">
+              <img class="experience-image" src="resources/gamebench.png">
+        </div>
+        <div class="col-md-8 experience-description">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="experience-title">Gamebench</h3>
+                  <p>June 2016 - August 2016</p>
                 </div>
-                <div class="web-dev-div">
-                    <div class="web-dev" id="web" onmouseover="displayContent(2)" onmouseout="displayContent(0)">
-                        WEB DEVELOPMENT<br>
-                        <div class="skill-values" id="web-skills">
-                            HTML &nbsp; CSS &nbsp; Javascript &nbsp; PHP &nbsp; jQuery
-                        </div>
-                    </div>
-                    <!--<div class="arrow-up" id="arrow-right-web"></div>-->
+              </div>
+              <p><strong>Software Engineer</strong> | Bristol, UK</p>
+              <ul>
+                <li>Implemented an upgrade for the existing <em>Java</em> application which allows users to analyse network usage of their apps based on parameters like latency, response time, download duration and size etc.</li>
+                <li>Used <em>Application Resource Optimiser</em> (ARO) API by AT&T during development process</li>
+                <li>Attempted a <em>Man-in-the-Middle attack</em> to decipher encrypted HTTPS traffic for analysis purposes</li>
+              </ul>
+        </div>
+      </div>
+  </div>
+
+  <div class="row experience-section">
+      <div class="col-md-8 col-md-offset-3">
+        <div class="col-md-2">
+              <img class="experience-image" src="resources/jpmorgan.png">
+        </div>
+        <div class="col-md-8 experience-description">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="experience-title">J.P. Morgan</h3>
+                  <p>April 2016 - April 2016</p>
                 </div>
-                <div class="specialisations-div">
-                    <div class="specialisations" onmouseover="displayContent(3)" onmouseout="displayContent(0)">
-                        SPECIALISATIONS<br>
-                        <div class="skill-values" id="special-skills">
-                            Machine Learning &nbsp; Artificial Intelligence &nbsp; Graphics &nbsp; Image Processing &nbsp;
-                        </div>
-                    </div>
-                    <!--<div class="arrow-up" id="arrow-right-special"></div>-->
-                </div>  
-            </div>
-            <!--
-            <div class="lower-skills" id="lowerSkills">
-                dfdfd
-            </div>
-            -->
+              </div>
+              <p><strong>Technology Spring Intern</strong> | Bournemouth, UK</p>
+              <ul>
+                <li>Gained an in-depth insight of the Technology division and its role in driving the core business</li>
+                <li>Part of <em>Coding Challenge winning team</em> which involved building an AI for a tank battle game in <em>Java</em></li>
+                <li>Work shadowed an analyst in the Derivatives department and attended presentations, workshops etc.</li>
+              </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row experience-section">
+        <div class="col-md-8 col-md-offset-3">
+          <div class="col-md-2">
+                <img class="experience-image" src="resources/spookfish.png">
+          </div>
+          <div class="col-md-8 experience-description">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3 class="experience-title">Spookfish Innovations</h3>
+                    <p>June 2015 - August 2015</p>
+                  </div>
+                </div>
+                <p><strong>Software Engineering Intern</strong> | Bangalore, India</p>
+                <ul>
+                  <li>Developed a C++ application for real time person detection in live video using <em>Histogram of Oriented Gradients</em> (HOG)</li>
+                  <li>Worked on <em>Support Vector Machines (SVM)</em> for classification of feature sets</li>
+                  <li>Developed a C++ application for high precision measurement of industrial components. It involved usage of <em>Object Coordinate tracking</em> (using OpenCV), <em>Lens Formula</em> and <em>RANSAC algorithm</em></li>
+                </ul>
+          </div>
         </div>
     </div>
-    <div class="portfolio" id="Portfolio">
-        <div class="portfolio-title">PORTFOLIO<br><br>Sorry, this segment is under construction :(</div>
+</div>
+<!--experience end-->
+
+<!-- Skills begin -->
+<div class="container-fluid skills" id="skills">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="section-title skill-border">SKILLS</h2>
     </div>
-    <div class="resume" id="Resume">
-        <div class="resume-title">RESUME</div>
-        <input type="button" class="view-resume" value="View My Resume" onclick="window.location.href='../resources/resume.pdf'"/>
+  </div>
+  <div class="row">
+    <div class="col-md-4 skill-description skill-1" id="skill-1">
+    <span class="skill-title"><h2>Java</h2></span>
+    <p>While interning at GameBench I implemented an upgrade for a Java application that allows users to analyse the network performance of mobile apps based on parameters like latency, response time, download duration and many more</p>
     </div>
-    <div class="contact" id="Contact">
-        <div class="get-in-touch">Get in touch
-            <div class="email" id="email">
-                <img src="resources/email.png" width="240" height="80">
-                m.gupta.2014@my.bristol.ac.uk<br>
-                muditalok@gmail.com
-            </div>
-            <div class="phone" id="phone">
-                <img src="resources/phone.png" width="240" height="80">
-                +447742652085<font color="deepskyblue">sec</font>
-            </div>
-            
-        </div>
-        <div class="social-media" id="social-media">
-            Connect on social media
-            <div class="social-media-buttons">
-                <a href="https://www.facebook.com/mudit.gupta.9085">
-                    <img onmouseout="this.src='resources/facebook.png'" onmouseover="this.src='resources/facebook_onHover.png'" width="280" src="resources/facebook.png"></a>
-                <a href="https://www.linkedin.com/in/mudit-gupta-4a635294">
-                    <img onmouseout="this.src='resources/linkedin.png'" onmouseover="this.src='resources/linkedin_onHover.png'" width="280" src="resources/linkedin.png"></a>
-                <br><br><br>
-                <a href="https://plus.google.com/u/0/106330749317462508655/posts/p/pub">
-                    <img onmouseout="this.src='resources/google+.png'" onmouseover="this.src='resources/google+_onHover.png'" width="280" src="resources/google+.png"></a>
-                <a href="https://www.youtube.com/channel/UCfHLP6wbAvYRlpmIVFHn-Bg">
-                    <img onmouseout="this.src='resources/youtube.png'" onmouseover="this.src='resources/youtube_onHover.png'" width="280" src="resources/youtube.png"></a>
-            </div>
-        </div>
-        <div class="copyright">© Copyright 2016 Mudit Gupta | All rights reserved</div>
-        
+    <div class="col-md-4 skill-description skill-2">
+    <span class="skill-title"><h2>C++</h2></span>
+    <p>During my internship at Spookfish, I worked on Computer Vision applications in C++. I have also used C++ to implement a ray tracer using OpenGL for my graphics course</p>
     </div>
+    <div class="col-md-4 skill-description skill-3">
+    <span class="skill-title"><h2>Python</h2></span>
+    <p>Used python along with the library scikit-learn to implement an SVM classifier and neural networks for face recognition</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 skill-description skill-4">
+    <span class="skill-title"><h2>HTML,CSS and JavaScript</h2></span>
+    <p>Did front end development for multiple web applications like a room booking system, vacation recommendation engine and a task planner while using frameworks like Bootstrap</p>
+    </div>
+    <div class="col-md-4 skill-description skill-5">
+    <span class="skill-title"><h2>PHP</h2></span>
+    <p>Used PHP and PostgreSQL to implement a search feature for a web application named <a href="https://github.com/mg14777/TaskBunny">Task Bunny</a> which allows users to find people who can do different chores for them</p>
+    </div>
+    <div class="col-md-4 skill-description skill-6">
+    <span class="skill-title"><h2>Haskell</h2></span>
+    <p>Prior experience of using Haskell for functional programming and understanding Denotational Semantics for my compilers course</p>
+    </div>
+  </div>
+</div>
+<!-- skills end -->
+
+
+<!-- Project begin -->
+<div class="container-fluid projects" id="projects">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="section-title">PROJECTS</h2>
+    </div>
+  </div>
+  <div class="row project-list">
+    <div class="col-md-4">
+      <img class="img-responsive center-block project-image" src="resources/tetris_logo.png">
+    </div>
+    <div class="col-md-8 text-center">
+      <h3 class="project-title">Artificial Intelligence for Tetris</h3>
+      <a href="https://github.com/mg14777/Tetris-AI"><i class="fa fa-github project-git"></i></a>
+      <ul class="project-description">
+        <li>AI made for Tetris in Java</li>
+        <li>Uses a weighted linear sum of features as utility function</li>
+        <li>Reinforcement Learning used via <strong>Particle Swarm Optimization</strong> and <strong>Genetic Algorithm</strong> to derive the ideal weights for features.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row project-list">
+    <div class="col-md-4">
+      <img class="img-responsive center-block task-bunny-image" src="resources/task_bunny.png">
+    </div>
+    <div class="col-md-8 text-center">
+      <h3 class="project-title">Task Bunny</h3>
+      <a href="https://github.com/mg14777/TaskBunny"><i class="fa fa-github project-git"></i></a>
+      <ul class="project-description">
+        <li>Website that connects users to taskers who can provide services to them</li>
+        <li>Worked on the back-end to implement a search feature that allows users to filter their task list based on different parameters</li>
+        <li>Server side technologies included PHP and PostgreSQL</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row project-list">
+    <div class="col-md-4">
+      <img class="img-responsive center-block book-it-image" src="resources/book_it_logo.png">
+    </div>
+    <div class="col-md-8 text-center">
+      <h3 class="project-title">Book.IT</h3>
+      <a href="https://github.com/mg14777/SPE"><i class="fa fa-github project-git"></i></a>
+      <ul class="project-description">
+        <li>A web application built for the company <a href="https://p.ota.to/"><em>Potato</em></a> to book meeting rooms at their office</li>
+        <li>I worked on the front end to develop the interface using HTML,CSS and JavaScript</li>
+        <li>Back end development was done using Python and Google Calendar was used as a database to store bookings</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row project-list">
+    <div class="col-md-4">
+      <img class="img-responsive center-block project-image" src="resources/scotland_yard_logo.png">
+    </div>
+    <div class="col-md-8 text-center">
+      <h3 class="project-title">Scotland Yard</h3>
+      <a href="https://github.com/mg14777/Tetris-AI"><i class="fa fa-github project-git"></i></a>
+      <ul class="project-description">
+        <li>Java version of board game <em>Scotland Yard</em></li>
+        <li>Further developed an AI for the game implemented using <em>MiniMax</em> and <em>Alpha-Beta pruning</em></li>
+        <li><em>Multi-threading</em> was used to improve performance of the AI</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<!-- project end -->
+<!-- Resume begin -->
+<div class="container-fluid resume" id="resume">
+  <div class="row">
+    <div class="col-md-12">
+      <h3><input class="resume-button" type="button" onclick="window.location.href='resources/resume.pdf'" value="View My Resume"></h3>
+    </div>
+  </div>
+</div>
+
+<!-- Contact begin -->
+<div class="container-fluid contact" id="contact">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="section-title">Get in Touch</h2>
+    </div>
+  </div>
+  <div class="row contact-content">
+    <div class="col-md-12">
+      <h3>If you have any exciting opportunities, I'd love to hear more!</h3>
+    </div>
+  </div>
+  <div class="row contact-content">
+    <div class="col-md-3 col-md-offset-3">
+      <h2><i class="fa fa-envelope-o"></i></h2>
+      <p>m.gupta.2014@my.bristol.ac.uk</p>
+    </div>
+    <div class="col-md-3">
+      <h2><i class="fa fa-phone"></i></h2>
+      <p>+44-7742652085</p>
+    </div>
+  </div>
+  <div class="row contact-content">
+    <div class="col-md-1 col-md-offset-4">
+      <a href="https://www.linkedin.com/in/mudit-gupta-4a635294"><h3 class="social-media"><i class="fa fa-linkedin-square"></i></h3></a>
+    </div>
+    <div class="col-md-1">
+      <a href="https://www.facebook.com/mudit.gupta.9085"><h3 class="social-media"><i class="fa fa-facebook-square"></i></h3></a>
+    </div>
+    <div class="col-md-1">
+      <a href="https://github.com/mg14777"><h3 class="social-media"><i class="fa fa-github-square"></i></h3></a>
+    </div>
+    <div class="col-md-1">
+      <a href="https://www.youtube.com/channel/UCfHLP6wbAvYRlpmIVFHn-Bg"><h3 class="social-media"><i class="fa fa-youtube-play"></i></h3></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scroll-lock.js"></script>
-    <script type="text/javascript">
-        $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') ==                      this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-        });
-    </script>
   </body>
 </html>
