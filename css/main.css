@@ -169,11 +169,7 @@ Section specific properties
     background: url(../resources/task_bunny.png);
     background-size: cover;
 }
-.task-bunny-image {
-    width: 700px;
-    padding-top: 10%;
-}
-.book-it-image {
+.task-bunny-image, .book-it-image, .fast-tube-image {
    width: 700px;
    padding-top: 10%;
 }
